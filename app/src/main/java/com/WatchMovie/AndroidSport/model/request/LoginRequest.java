@@ -43,7 +43,6 @@ public class LoginRequest extends BaseRequest{
         return new OnRequestListener<String>() {
             @Override
             public void onSuccess(String s) {
-
                 if (listener != null){
                     JSONObject resultJson = JSON.parseObject(s);
                     int code = resultJson.getInteger(RESULT_KEY);
@@ -54,7 +53,6 @@ public class LoginRequest extends BaseRequest{
                         listener.onFail(code);
                     }
                 }
-
             }
 
             @Override
