@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.fragment;
+package com.WatchMovie.AndroidSport.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.happyheng.AndroidSport.R;
-import com.happyheng.AndroidSport.activity.ActivitySportList;
+import com.WatchMovie.AndroidSport.R;
+import com.WatchMovie.AndroidSport.activity.ActivitySportList;
 
 /**
  * 主页面---我的

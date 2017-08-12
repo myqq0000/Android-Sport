@@ -1,9 +1,9 @@
-package com.happyheng.AndroidSport.model.request;
+package com.WatchMovie.AndroidSport.model.request;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.happyheng.AndroidSport.model.entity.BaseResult;
-import com.happyheng.AndroidSport.model.network.listener.OnRequestListener;
+import com.WatchMovie.AndroidSport.model.entity.BaseResult;
+import com.WatchMovie.AndroidSport.model.network.listener.OnRequestListener;
 
 /**
  * 上传用户运动信息的Request

@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.view;
+package com.WatchMovie.AndroidSport.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.happyheng.AndroidSport.R;
+import com.WatchMovie.AndroidSport.R;
 
 /**
  * 主页顶部的View

@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.fragment.recycler;
+package com.WatchMovie.AndroidSport.fragment.recycler;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;
@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.happyheng.AndroidSport.R;
+import com.WatchMovie.AndroidSport.R;
 
 
 /**

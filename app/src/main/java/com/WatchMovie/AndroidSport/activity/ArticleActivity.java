@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.activity;
+package com.WatchMovie.AndroidSport.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import com.happyheng.AndroidSport.R;
+import com.WatchMovie.AndroidSport.R;
 
 /**
  * 文章详情界面

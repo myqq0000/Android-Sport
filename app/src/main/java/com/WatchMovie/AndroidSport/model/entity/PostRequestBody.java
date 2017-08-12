@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.model.entity;
+package com.WatchMovie.AndroidSport.model.entity;
 
 /**
  * 在Post请求中的将key-value封装的类

@@ -1,9 +1,9 @@
-package com.happyheng.AndroidSport.model.request;
+package com.WatchMovie.AndroidSport.model.request;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.happyheng.AndroidSport.model.entity.SportListResult;
-import com.happyheng.AndroidSport.model.network.listener.OnRequestListener;
+import com.WatchMovie.AndroidSport.model.entity.SportListResult;
+import com.WatchMovie.AndroidSport.model.network.listener.OnRequestListener;
 
 import java.util.List;
 

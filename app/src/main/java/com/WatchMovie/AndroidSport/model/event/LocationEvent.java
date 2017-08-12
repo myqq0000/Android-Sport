@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.model.event;
+package com.WatchMovie.AndroidSport.model.event;
 
 import com.baidu.mapapi.model.LatLng;
 

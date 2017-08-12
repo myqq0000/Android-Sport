@@ -1,10 +1,10 @@
-package com.happyheng.AndroidSport;
+package com.WatchMovie.AndroidSport;
 
 import android.app.Application;
 
 import com.baidu.mapapi.SDKInitializer;
-import com.happyheng.AndroidSport.model.User;
-import com.happyheng.AndroidSport.model.network.HttpClient;
+import com.WatchMovie.AndroidSport.model.User;
+import com.WatchMovie.AndroidSport.model.network.HttpClient;
 import com.orhanobut.logger.Logger;
 
 /**

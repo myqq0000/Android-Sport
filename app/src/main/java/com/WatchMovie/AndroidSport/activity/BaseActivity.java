@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.activity;
+package com.WatchMovie.AndroidSport.activity;
 
 import android.support.v4.app.FragmentActivity;
 import android.widget.Toast;

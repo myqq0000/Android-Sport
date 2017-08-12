@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.model;
+package com.WatchMovie.AndroidSport.model;
 
 public abstract class IdEntity {
 	protected Long id;

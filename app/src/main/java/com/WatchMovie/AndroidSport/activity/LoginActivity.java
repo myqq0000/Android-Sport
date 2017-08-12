@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.activity;
+package com.WatchMovie.AndroidSport.activity;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
@@ -10,14 +10,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import com.happyheng.AndroidSport.R;
-import com.happyheng.AndroidSport.model.request.BaseRequest;
-import com.happyheng.AndroidSport.model.request.LoginRequest;
-import com.happyheng.AndroidSport.model.User;
-import com.happyheng.AndroidSport.utils.DensityUtils;
-import com.happyheng.AndroidSport.utils.ScreenUtils;
-import com.happyheng.AndroidSport.utils.SimpleStartActivityUtils;
-import com.happyheng.AndroidSport.utils.ToastUtils;
+import com.WatchMovie.AndroidSport.R;
+import com.WatchMovie.AndroidSport.model.request.BaseRequest;
+import com.WatchMovie.AndroidSport.model.request.LoginRequest;
+import com.WatchMovie.AndroidSport.model.User;
+import com.WatchMovie.AndroidSport.utils.DensityUtils;
+import com.WatchMovie.AndroidSport.utils.ScreenUtils;
+import com.WatchMovie.AndroidSport.utils.SimpleStartActivityUtils;
+import com.WatchMovie.AndroidSport.utils.ToastUtils;
 import com.orhanobut.logger.Logger;
 
 /**

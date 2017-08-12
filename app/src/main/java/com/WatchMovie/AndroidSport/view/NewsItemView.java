@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.view;
+package com.WatchMovie.AndroidSport.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.happyheng.AndroidSport.R;
+import com.WatchMovie.AndroidSport.R;
 
 /**
  *

@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.utils;
+package com.WatchMovie.AndroidSport.utils;
 
 import android.app.Activity;
 import android.content.ComponentName;

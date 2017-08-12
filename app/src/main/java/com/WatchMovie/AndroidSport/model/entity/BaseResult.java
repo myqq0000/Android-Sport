@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.model.entity;
+package com.WatchMovie.AndroidSport.model.entity;
 
 /**
  * 所有返回的数据的基类

@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.fragment;
+package com.WatchMovie.AndroidSport.fragment;
 
 import android.content.Intent;
 import android.graphics.Rect;
@@ -6,11 +6,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.happyheng.AndroidSport.activity.ArticleActivity;
-import com.happyheng.AndroidSport.fragment.recycler.FragmentLoadRecycler;
-import com.happyheng.AndroidSport.model.News;
-import com.happyheng.AndroidSport.model.request.NewsRequest;
-import com.happyheng.AndroidSport.view.NewsItemView;
+import com.WatchMovie.AndroidSport.activity.ArticleActivity;
+import com.WatchMovie.AndroidSport.fragment.recycler.FragmentLoadRecycler;
+import com.WatchMovie.AndroidSport.model.News;
+import com.WatchMovie.AndroidSport.model.request.NewsRequest;
+import com.WatchMovie.AndroidSport.view.NewsItemView;
 
 import java.util.ArrayList;
 import java.util.List;

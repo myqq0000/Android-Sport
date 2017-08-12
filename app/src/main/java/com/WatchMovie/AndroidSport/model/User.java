@@ -1,9 +1,9 @@
-package com.happyheng.AndroidSport.model;
+package com.WatchMovie.AndroidSport.model;
 
 import android.content.Context;
 import android.text.TextUtils;
 
-import com.happyheng.AndroidSport.utils.SPUtils;
+import com.WatchMovie.AndroidSport.utils.SPUtils;
 
 /**
  * User类封装了用户操作的一系列信息

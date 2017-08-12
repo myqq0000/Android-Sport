@@ -1,7 +1,7 @@
-package com.happyheng.AndroidSport.model.entity;
+package com.WatchMovie.AndroidSport.model.entity;
 
 
-import com.happyheng.AndroidSport.model.News;
+import com.WatchMovie.AndroidSport.model.News;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.service;
+package com.WatchMovie.AndroidSport.service;
 
 import android.app.Service;
 import android.content.Intent;
@@ -10,9 +10,9 @@ import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.baidu.mapapi.model.LatLng;
-import com.happyheng.AndroidSport.model.event.LocationEvent;
-import com.happyheng.AndroidSport.servicecode.RecordService;
-import com.happyheng.AndroidSport.servicecode.impl.RecordServiceImpl;
+import com.WatchMovie.AndroidSport.model.event.LocationEvent;
+import com.WatchMovie.AndroidSport.servicecode.RecordService;
+import com.WatchMovie.AndroidSport.servicecode.impl.RecordServiceImpl;
 import com.orhanobut.logger.Logger;
 
 import org.greenrobot.eventbus.EventBus;

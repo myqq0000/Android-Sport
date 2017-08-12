@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.fragment;
+package com.WatchMovie.AndroidSport.fragment;
 
 
 import android.content.Intent;
@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.happyheng.AndroidSport.R;
-import com.happyheng.AndroidSport.activity.MapActivity;
+import com.WatchMovie.AndroidSport.R;
+import com.WatchMovie.AndroidSport.activity.MapActivity;
 
 /**
  * 主页面---运动的Fragment

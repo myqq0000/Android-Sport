@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.activity;
+package com.WatchMovie.AndroidSport.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
-import com.happyheng.AndroidSport.R;
-import com.happyheng.AndroidSport.model.event.LocationEvent;
-import com.happyheng.AndroidSport.service.LocationService;
+import com.WatchMovie.AndroidSport.R;
+import com.WatchMovie.AndroidSport.model.event.LocationEvent;
+import com.WatchMovie.AndroidSport.service.LocationService;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

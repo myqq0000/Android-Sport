@@ -1,11 +1,11 @@
-package com.happyheng.AndroidSport.servicecode.impl;
+package com.WatchMovie.AndroidSport.servicecode.impl;
 
 import android.content.Context;
 
 import com.baidu.mapapi.model.LatLng;
-import com.happyheng.AndroidSport.model.request.RecordSportMessageRequest;
-import com.happyheng.AndroidSport.model.request.SportIdRequest;
-import com.happyheng.AndroidSport.servicecode.RecordService;
+import com.WatchMovie.AndroidSport.model.request.RecordSportMessageRequest;
+import com.WatchMovie.AndroidSport.model.request.SportIdRequest;
+import com.WatchMovie.AndroidSport.servicecode.RecordService;
 import com.orhanobut.logger.Logger;
 
 /**

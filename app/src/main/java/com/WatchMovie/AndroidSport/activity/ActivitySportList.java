@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.activity;
+package com.WatchMovie.AndroidSport.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.happyheng.AndroidSport.R;
-import com.happyheng.AndroidSport.model.User;
-import com.happyheng.AndroidSport.model.request.SportListRequest;
+import com.WatchMovie.AndroidSport.R;
+import com.WatchMovie.AndroidSport.model.User;
+import com.WatchMovie.AndroidSport.model.request.SportListRequest;
 import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;

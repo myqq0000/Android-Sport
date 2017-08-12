@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.view;
+package com.WatchMovie.AndroidSport.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,7 +7,7 @@ import android.graphics.Path;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.happyheng.AndroidSport.R;
+import com.WatchMovie.AndroidSport.R;
 
 /**
  * 运动界面的背景View

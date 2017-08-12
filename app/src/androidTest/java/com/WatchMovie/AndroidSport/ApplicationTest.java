@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport;
+package com.WatchMovie.AndroidSport;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

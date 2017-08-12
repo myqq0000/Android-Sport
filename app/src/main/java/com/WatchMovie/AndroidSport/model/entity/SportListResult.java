@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.model.entity;
+package com.WatchMovie.AndroidSport.model.entity;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.activity;
+package com.WatchMovie.AndroidSport.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,10 +13,10 @@ import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
-import com.happyheng.AndroidSport.R;
-import com.happyheng.AndroidSport.model.User;
-import com.happyheng.AndroidSport.model.entity.Location;
-import com.happyheng.AndroidSport.model.request.SportMessageRequest;
+import com.WatchMovie.AndroidSport.R;
+import com.WatchMovie.AndroidSport.model.User;
+import com.WatchMovie.AndroidSport.model.entity.Location;
+import com.WatchMovie.AndroidSport.model.request.SportMessageRequest;
 import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;

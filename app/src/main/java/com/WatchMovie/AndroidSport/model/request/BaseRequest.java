@@ -1,10 +1,10 @@
-package com.happyheng.AndroidSport.model.request;
+package com.WatchMovie.AndroidSport.model.request;
 
-import com.happyheng.AndroidSport.model.entity.PostRequestBody;
-import com.happyheng.AndroidSport.model.network.HttpClient;
-import com.happyheng.AndroidSport.model.network.listener.OnRequestListener;
-import com.happyheng.AndroidSport.utils.AESUtils;
-import com.happyheng.AndroidSport.utils.HexUtils;
+import com.WatchMovie.AndroidSport.model.entity.PostRequestBody;
+import com.WatchMovie.AndroidSport.model.network.HttpClient;
+import com.WatchMovie.AndroidSport.model.network.listener.OnRequestListener;
+import com.WatchMovie.AndroidSport.utils.AESUtils;
+import com.WatchMovie.AndroidSport.utils.HexUtils;
 
 
 /**

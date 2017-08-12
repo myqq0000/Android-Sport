@@ -1,13 +1,13 @@
-package com.happyheng.AndroidSport.activity;
+package com.WatchMovie.AndroidSport.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.happyheng.AndroidSport.R;
-import com.happyheng.AndroidSport.fragment.FragmentNews;
-import com.happyheng.AndroidSport.fragment.FragmentMine;
-import com.happyheng.AndroidSport.fragment.FragmentSport;
-import com.happyheng.AndroidSport.view.MainBottomView;
+import com.WatchMovie.AndroidSport.R;
+import com.WatchMovie.AndroidSport.fragment.FragmentNews;
+import com.WatchMovie.AndroidSport.fragment.FragmentMine;
+import com.WatchMovie.AndroidSport.fragment.FragmentSport;
+import com.WatchMovie.AndroidSport.view.MainBottomView;
 
 /**
  * 主页面

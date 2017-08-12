@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.happyheng.sport_android"
+        applicationId "com.happyheng.com.WatchMovie.AndroidSport"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1

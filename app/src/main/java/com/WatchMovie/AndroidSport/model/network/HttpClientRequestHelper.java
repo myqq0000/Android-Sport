@@ -1,6 +1,6 @@
-package com.happyheng.AndroidSport.model.network;
+package com.WatchMovie.AndroidSport.model.network;
 
-import com.happyheng.AndroidSport.model.entity.PostRequestBody;
+import com.WatchMovie.AndroidSport.model.entity.PostRequestBody;
 
 import java.io.UnsupportedEncodingException;
 

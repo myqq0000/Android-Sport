@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport.activity;
+package com.WatchMovie.AndroidSport.activity;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -6,9 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.happyheng.AndroidSport.R;
-import com.happyheng.AndroidSport.model.request.BaseRequest;
-import com.happyheng.AndroidSport.model.request.RegisterRequest;
+import com.WatchMovie.AndroidSport.R;
+import com.WatchMovie.AndroidSport.model.request.BaseRequest;
+import com.WatchMovie.AndroidSport.model.request.RegisterRequest;
 
 /**
  * "注册"的Activity

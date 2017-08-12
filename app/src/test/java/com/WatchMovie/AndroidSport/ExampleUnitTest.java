@@ -1,4 +1,4 @@
-package com.happyheng.AndroidSport;
+package com.WatchMovie.AndroidSport;
 
 import org.junit.Test;
 
