@@ -17,9 +17,8 @@ public abstract class BaseRequest {
     private static final String HEX_KEY = "5de7e29919fad4d5a17f97a3b6215a68";
     private static final byte[] key = HexUtils.hexStringToBytes(HEX_KEY);
 
-    //private static final String DOMAIN_NAME = "www.happyheng.top";
-    private static final String DOMAIN_NAME = "192.168.1.4";
-    private static final String BASE_URL = "http://"+ DOMAIN_NAME +":8080/Sport/";
+    private static final String DOMAIN_NAME = "47.93.222.250";
+    private static final String BASE_URL = "http://"+ DOMAIN_NAME +":80/Sport/";
     private static final String REQUEST_BASE_KEY = "s";
     protected static final String RESULT_KEY = "result";
 

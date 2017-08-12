@@ -31,6 +31,7 @@ public class LocationService extends Service implements BDLocationListener {
 
     //百度地图中定位的类
     public LocationClient mLocationClient = null;
+
     //记录着运动中移动的坐标位置
     private List<LatLng> mSportLatLngs = new LinkedList<>();
 

@@ -40,7 +40,6 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Light.NoTitleBar">
 
-        <!--百度云开发Key，可以将其替换成自己的，申请的具体方法可以参考  http://lbsyun.baidu.com/index.php?title=androidsdk/guide/key  -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="8c9AjQNNSK9YoNQKvvPOagxW03AQnvgd" />
