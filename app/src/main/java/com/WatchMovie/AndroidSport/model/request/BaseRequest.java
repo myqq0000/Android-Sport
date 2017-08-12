@@ -10,7 +10,7 @@ import com.WatchMovie.AndroidSport.utils.HexUtils;
 /**
  * Request请求的基类，封装了错误码，网络访问的方法
  * 子类需要实现HttpClient请求的回调，即获取到返回值，并根据不同的请求作出处理，在写出相应请求的回调。
- * Created by liuheng on 16/6/11.
+ * Created by WatchMovie on 17/8/12
  */
 public abstract class BaseRequest {
 

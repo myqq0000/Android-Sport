@@ -15,7 +15,7 @@ import com.WatchMovie.AndroidSport.activity.MapActivity;
 
 /**
  * 主页面---运动的Fragment
- * Created by liuheng on 16/7/14.
+ * Created by WatchMovie on 17/8/12
  */
 public class FragmentSport extends Fragment implements View.OnClickListener{
 

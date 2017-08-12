@@ -12,7 +12,7 @@ import com.WatchMovie.AndroidSport.R;
 
 /**
  *
- * Created by liuheng on 16/7/24.
+ * Created by WatchMovie on 17/8/12
  */
 public class NewsItemView extends LinearLayout {
 

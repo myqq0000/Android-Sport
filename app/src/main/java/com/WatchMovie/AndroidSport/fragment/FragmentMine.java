@@ -14,7 +14,7 @@ import com.WatchMovie.AndroidSport.activity.ActivitySportList;
 
 /**
  * 主页面---我的
- * Created by liuheng on 16/7/14.
+ * Created by WatchMovie on 17/8/12
  */
 public class FragmentMine extends Fragment {
 

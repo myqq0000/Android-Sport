@@ -11,7 +11,7 @@ import com.WatchMovie.AndroidSport.R;
 
 /**
  * 主页顶部的View
- * Created by liuheng on 16/7/12.
+ * Created by WatchMovie on 17/8/12
  */
 public class MainBottomView extends LinearLayout {
 

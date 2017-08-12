@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * 请求Sport信息的Request
- * Created by liuheng on 16/8/15.
+ * Created by WatchMovie on 17/8/12
  */
 public class SportListRequest extends BaseRequest {
 

@@ -4,7 +4,7 @@ import com.baidu.mapapi.model.LatLng;
 
 /**
  * 定位的Event
- * Created by liuheng on 16/7/24.
+ * Created by WatchMovie on 17/8/12
  */
 public class LocationEvent {
 

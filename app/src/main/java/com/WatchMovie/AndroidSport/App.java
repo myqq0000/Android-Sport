@@ -9,7 +9,7 @@ import com.orhanobut.logger.Logger;
 
 /**
  * 程序的Application对象
- * Created by liuheng on 16/6/7.
+ * Created by WatchMovie on 17/8/12
  */
 public class App extends Application{
 

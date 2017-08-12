@@ -10,7 +10,7 @@ import com.orhanobut.logger.Logger;
 
 /**
  * 记录运动信息的实现类
- * Created by liuheng on 16/7/5.
+ * Created by WatchMovie on 17/8/12
  */
 public class RecordServiceImpl implements RecordService {
 

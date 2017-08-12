@@ -12,7 +12,7 @@ import com.WatchMovie.AndroidSport.model.request.RegisterRequest;
 
 /**
  * "注册"的Activity
- * Created by liuheng on 16/6/7.
+ * Created by WatchMovie on 17/8/12
  */
 public class RegisterActivity extends BaseActivity {
 

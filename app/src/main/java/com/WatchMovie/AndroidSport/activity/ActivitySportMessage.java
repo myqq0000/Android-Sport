@@ -24,7 +24,7 @@ import java.util.List;
 
 /**
  * 显示运动轨迹的Activity
- * Created by liuheng on 16/8/16.
+ * Created by WatchMovie on 17/8/12
  */
 public class ActivitySportMessage extends BaseActivity implements SportMessageRequest.OnSportMessageListener{
 

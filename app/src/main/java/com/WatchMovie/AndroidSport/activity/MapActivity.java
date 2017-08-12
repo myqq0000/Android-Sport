@@ -25,7 +25,7 @@ import java.util.List;
 
 /**
  * 地图的Activity
- * Created by liuheng on 16/6/26.
+ * Created by WatchMovie on 17/8/12
  */
 public class MapActivity extends BaseActivity {
 

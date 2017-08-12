@@ -22,7 +22,7 @@ import java.util.List;
 
 /**
  * 定位的Service类，用户在运动时此服务会在后台进行定位。
- * Created by liuheng on 16/7/24.
+ * Created by WatchMovie on 17/8/12
  */
 public class LocationService extends Service implements BDLocationListener {
 

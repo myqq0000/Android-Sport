@@ -9,7 +9,7 @@ import android.net.NetworkInfo;
 
 /**
  * 网络判断方面的辅助类
- * Created by liuheng on 16/4/24.
+ * Created by WatchMovie on 17/8/12
  */
 public class NetUtils {
 

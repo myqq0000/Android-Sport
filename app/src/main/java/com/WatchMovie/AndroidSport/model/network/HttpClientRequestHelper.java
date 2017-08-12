@@ -10,7 +10,7 @@ import okhttp3.RequestBody;
 
 /**
  * 获取HttpClient中Request请求对象的帮助类
- * Created by liuheng on 16/6/11.
+ * Created by WatchMovie on 17/8/12
  */
 public class HttpClientRequestHelper {
 

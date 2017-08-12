@@ -21,7 +21,7 @@ import java.util.List;
 
 /**
  * 显示所有运动记录的Activity
- * Created by liuheng on 16/8/15.
+ * Created by WatchMovie on 17/8/12
  */
 public class ActivitySportList extends BaseActivity implements SportListRequest.ListListener,ListView.OnItemClickListener{
 

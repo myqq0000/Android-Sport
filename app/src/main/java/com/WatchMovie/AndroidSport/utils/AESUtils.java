@@ -7,7 +7,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 /**
  * AES进行加解密的工具类
- * @author liuheng
+ * @author WatchMovie
  *
  */
 public class AESUtils {

@@ -21,7 +21,7 @@ import okhttp3.Response;
  * 基于"Okhttp"的网络访问工具类
  * 注意在所有的请求中，都会有请求对应的路径名，和对应的键值对，需要把键值对序列化成json，然后请求时让s对应此json。这样是为了
  * 将数据加密
- * Created by liuheng on 2016/6/7.
+ * Created by WatchMovie on 17/8/12
  */
 public class HttpClient {
 

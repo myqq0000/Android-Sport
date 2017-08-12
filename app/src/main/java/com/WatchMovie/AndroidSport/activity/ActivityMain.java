@@ -11,7 +11,7 @@ import com.WatchMovie.AndroidSport.view.MainBottomView;
 
 /**
  * 主页面
- * Created by liuheng on 16/7/12.
+ * Created by WatchMovie on 17/8/12
  */
 public class ActivityMain extends BaseActivity {
 

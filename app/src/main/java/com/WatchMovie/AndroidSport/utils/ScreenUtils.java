@@ -10,7 +10,7 @@ import android.view.WindowManager;
 
 /**
  * 屏幕宽高、状态栏高度、获取截图的辅助类
- * Created by liuheng on 16/4/24.
+ * Created by WatchMovie on 17/8/12
  */
 public class ScreenUtils {
     private ScreenUtils()

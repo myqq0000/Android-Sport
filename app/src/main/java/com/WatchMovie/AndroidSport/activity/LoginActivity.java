@@ -22,7 +22,7 @@ import com.orhanobut.logger.Logger;
 
 /**
  * "登陆"的Activity
- * Created by liuheng on 16/6/6.
+ * Created by WatchMovie on 17/8/12
  */
 public class LoginActivity extends BaseActivity {
 

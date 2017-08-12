@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * SharedPreferences工具类
- * Created by liuheng on 16/4/24.
+ * Created by WatchMovie on 17/8/12
  */
 public class SPUtils {
 

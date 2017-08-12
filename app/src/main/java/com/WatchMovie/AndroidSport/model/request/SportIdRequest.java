@@ -7,7 +7,7 @@ import com.WatchMovie.AndroidSport.model.network.listener.OnRequestListener;
 
 /**
  * 得到运动id的Request
- * Created by liuheng on 16/7/5.
+ * Created by WatchMovie on 17/8/12
  */
 public class SportIdRequest extends BaseRequest{
 

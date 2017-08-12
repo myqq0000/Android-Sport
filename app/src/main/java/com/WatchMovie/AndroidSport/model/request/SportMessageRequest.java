@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * 请求详细运动数据的Request
- * Created by liuheng on 16/8/16.
+ * Created by WatchMovie on 17/8/12
  */
 public class SportMessageRequest extends BaseRequest {
 

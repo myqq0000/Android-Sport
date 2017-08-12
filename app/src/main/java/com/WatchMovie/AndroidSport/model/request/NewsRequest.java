@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * '发现频道'的请求类
- * Created by liuheng on 16/7/20.
+ * Created by WatchMovie on 17/8/12
  */
 public class NewsRequest extends BaseRequest {
 

@@ -7,7 +7,7 @@ import com.WatchMovie.AndroidSport.model.network.listener.OnRequestListener;
 
 /**
  * 上传用户运动信息的Request
- * Created by liuheng on 16/7/7.
+ * Created by WatchMovie on 17/8/12
  */
 public class RecordSportMessageRequest extends BaseRequest{
 

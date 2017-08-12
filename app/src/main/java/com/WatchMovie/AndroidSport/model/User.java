@@ -7,7 +7,7 @@ import com.WatchMovie.AndroidSport.utils.SPUtils;
 
 /**
  * User类封装了用户操作的一系列信息
- * Created by liuheng on 16/6/13.
+ * Created by WatchMovie on 17/8/12
  */
 public class User {
 

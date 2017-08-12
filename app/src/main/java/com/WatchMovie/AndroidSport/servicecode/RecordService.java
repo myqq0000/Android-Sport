@@ -4,7 +4,7 @@ import com.baidu.mapapi.model.LatLng;
 
 /**
  * 上传跑步信息的Service接口
- * Created by liuheng on 16/7/3.
+ * Created by WatchMovie on 17/8/12
  */
 public interface RecordService {
 

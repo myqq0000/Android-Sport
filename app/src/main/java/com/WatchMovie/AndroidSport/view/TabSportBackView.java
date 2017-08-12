@@ -11,7 +11,7 @@ import com.WatchMovie.AndroidSport.R;
 
 /**
  * 运动界面的背景View
- * Created by liuheng on 16/7/16.
+ * Created by WatchMovie on 17/8/12
  */
 public class TabSportBackView extends View {
 

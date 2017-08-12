@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * 主页面---展示信息的Fragment
- * Created by liuheng on 16/7/14.
+ * Created by WatchMovie on 17/8/12
  */
 public class FragmentNews extends FragmentLoadRecycler {
 

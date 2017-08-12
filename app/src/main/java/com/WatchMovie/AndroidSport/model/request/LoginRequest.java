@@ -6,7 +6,7 @@ import com.WatchMovie.AndroidSport.model.network.listener.OnRequestListener;
 
 /**
  * 登陆请求的类
- * Created by liuheng on 16/6/8.
+ * Created by WatchMovie on 17/8/12
  */
 public class LoginRequest extends BaseRequest{
 

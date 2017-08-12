@@ -2,7 +2,7 @@ package com.WatchMovie.AndroidSport.model.entity;
 
 /**
  * 所有返回的数据的基类
- * Created by liuheng on 16/7/7.
+ * Created by WatchMovie on 17/8/12
  */
 public class BaseResult {
     private int result;

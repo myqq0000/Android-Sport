@@ -5,7 +5,7 @@ import android.content.Intent;
 
 /**
  * 简单的跳转Activity的工具类
- * Created by liuheng on 16/6/7.
+ * Created by WatchMovie on 17/8/12
  */
 public class SimpleStartActivityUtils {
     public static void startActivity(Context context, Class<?> cls) {

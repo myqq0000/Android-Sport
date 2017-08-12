@@ -5,7 +5,7 @@ import android.widget.Toast;
 
 /**
  * 吐司的辅助类
- * Created by liuheng on 16/6/8.
+ * Created by WatchMovie on 17/8/12
  */
 public class ToastUtils {
 
