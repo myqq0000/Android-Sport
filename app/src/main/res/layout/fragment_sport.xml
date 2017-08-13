@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#14161e">
 
     <com.WatchMovie.AndroidSport.view.TabSportBackView
         android:layout_width="match_parent"
@@ -58,6 +59,7 @@
                 android:layout_alignLeft="@+id/tab_sport_time_num_tv"
                 android:layout_below="@+id/tab_sport_time_tv"
                 android:layout_marginTop="5dp"
+                android:textColor="#2f7ad9"
                 android:text="累计用时"
                 android:textSize="14sp" />
 
@@ -97,6 +99,7 @@
                 android:layout_alignLeft="@+id/tab_sport_num_tv"
                 android:layout_below="@+id/tab_sport_num_tv"
                 android:layout_marginTop="5dp"
+                android:textColor="#2f7ad9"
                 android:text="运动次数"
                 android:textSize="14sp" />
 

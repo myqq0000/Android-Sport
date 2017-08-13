@@ -96,7 +96,10 @@ public class MapActivity extends BaseActivity {
     private void drawLocation(LatLng nowLatLng) {
 
         //1、画出当前的点数
-        OverlayOptions dotOptions = new DotOptions().center(nowLatLng);
+        OverlayOptions dotOptions = new DotOptions()
+                .center(nowLatLng)
+                .radius(6)
+                .color(0xAAFF0000);
         mMap.addOverlay(dotOptions);
 
         //2、如果不为1，那么还要画一个指向之前的横线
@@ -104,7 +107,10 @@ public class MapActivity extends BaseActivity {
             List<LatLng> linePoints = new ArrayList<>();
             linePoints.add(mBeforeLocation);
             linePoints.add(nowLatLng);
-            OverlayOptions lineOptions = new PolylineOptions().points(linePoints);
+            OverlayOptions lineOptions = new PolylineOptions()
+                    .width(4)
+                    .color(0xAAFF0000)
+                    .points(linePoints);
             mMap.addOverlay(lineOptions);
         }
         mBeforeLocation = nowLatLng;
