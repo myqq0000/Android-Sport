@@ -42,7 +42,7 @@
 
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="o35mLVH6NfpQ7ULK1UXVd2xnv4D8NqZn" />
+            android:value="MnLXhDizhM5Z85a50N3UmgqgAVpz8KfY" />
 
 
         <service android:name="com.WatchMovie.AndroidSport.service.LocationService" />
