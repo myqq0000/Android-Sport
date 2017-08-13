@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/bg_color"
     android:weightSum="3">
 
 
@@ -13,7 +14,27 @@
         android:layout_weight="2"
         android:gravity="bottom"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:paddingBottom="5dp"
+            android:hint="@string/app_name"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@color/write"
+            android:textSize="30dp"
+            />
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+         <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/account"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"/>
         <EditText
             android:id="@+id/username_et"
             android:layout_width="@dimen/edittext_default_width"
@@ -21,8 +42,27 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="25dp"
             android:gravity="center"
+            android:background="@null"
+            android:singleLine="true"
+            android:textColor="@color/write"
             android:hint="@string/login_username_hint" />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/write"
+                android:layout_marginTop="70dp"/>
+        </RelativeLayout>
 
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@mipmap/key"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="30dp"/>
         <EditText
             android:id="@+id/password_et"
             android:layout_width="@dimen/edittext_default_width"
@@ -31,8 +71,28 @@
             android:layout_marginTop="25dp"
             android:gravity="center"
             android:hint="@string/login_password_hint"
+            android:background="@null"
+            android:singleLine="true"
+            android:textColor="@color/write"
             android:inputType="textPassword" />
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="1dp"
+              android:background="@color/write"
+              android:layout_marginTop="70dp"/>
 
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@mipmap/key"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="30dp"/>
         <EditText
             android:id="@+id/password_confirm_et"
             android:layout_width="@dimen/edittext_default_width"
@@ -41,16 +101,46 @@
             android:layout_marginTop="25dp"
             android:gravity="center"
             android:hint="@string/login_password_confirm_hint"
+            android:background="@null"
+            android:textColor="@color/write"
+            android:singleLine="true"
             android:inputType="textPassword" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@color/write"
+            android:layout_marginTop="70dp"/>
 
-        <EditText
+      </RelativeLayout>
+
+      <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:gravity="center">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@mipmap/emoticon_cool"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="30dp"/>
+          <EditText
             android:id="@+id/nickname_et"
             android:layout_width="@dimen/edittext_default_width"
             android:layout_height="@dimen/edittext_default_height"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:gravity="center"
+            android:background="@null"
+            android:singleLine="true"
+            android:textColor="@color/write"
             android:hint="@string/nick_hint" />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/write"
+                android:layout_marginTop="70dp"/>
+
+      </RelativeLayout>
 
     </LinearLayout>
 
@@ -59,14 +149,16 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:paddingBottom="40dp">
 
         <Button
             android:id="@+id/register_bt"
             android:layout_width="300dp"
             android:layout_height="35dp"
             android:layout_marginTop="50dp"
-            android:background="@color/blue_light"
+            android:background="@color/light_blue"
+            android:textColor="@color/write"
             android:text="@string/register_bt_text" />
     </LinearLayout>
 
