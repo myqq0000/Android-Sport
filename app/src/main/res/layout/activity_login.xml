@@ -2,38 +2,69 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/bg_color">
 
 
     <LinearLayout
         android:id="@+id/top_ll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <ImageView
             android:id="@+id/icon_iv"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@mipmap/user_icon" />
+            android:src="@mipmap/runner" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@mipmap/account"
+           android:layout_marginTop="40dp"
+           android:layout_marginLeft="30dp"/>
 
         <EditText
             android:id="@+id/username_et"
             android:layout_width="@dimen/edittext_default_width"
             android:layout_height="@dimen/edittext_default_height"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="30dp"
+            android:singleLine="true"
             android:gravity="center"
+            android:background="@null"
+            android:textColor="@color/write"
             android:hint="@string/login_username_hint" />
+        </RelativeLayout>
 
-        <EditText
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+         <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/key"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"/>
+         <EditText
             android:id="@+id/password_et"
             android:layout_width="@dimen/edittext_default_width"
             android:layout_height="@dimen/edittext_default_height"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:gravity="center"
             android:hint="@string/login_password_hint"
+            android:textColor="@color/write"
+            android:background="@null"
             android:inputType="textPassword" />
+        </RelativeLayout>
 
 
     </LinearLayout>
@@ -51,7 +82,7 @@
             android:id="@+id/login_bt"
             android:layout_width="300dp"
             android:layout_height="35dp"
-            android:background="@color/red"
+            android:background="@color/light_blue"
             android:text="登陆"
             android:textColor="@color/write" />
 
