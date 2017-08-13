@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.WatchMovie.AndroidSport.R;
 import com.WatchMovie.AndroidSport.model.request.BaseRequest;
@@ -35,7 +36,7 @@ public class LoginActivity extends BaseActivity {
     private LoginRequest.OnLoginListener  mLoginListener = new OnLoginListener();
 
     private ImageView mIconIv;
-    private EditText mUserNameEt, mPassWordEt;
+    private TextView mUserNameEt, mPassWordEt;
     private Button mLoginBt, mRegisterBt;
 
     private View mTopLl, mBottomLl;
@@ -57,8 +58,8 @@ public class LoginActivity extends BaseActivity {
      */
     private void initView() {
         mIconIv = (ImageView) findViewById(R.id.icon_iv);
-        mUserNameEt = (EditText) findViewById(R.id.username_et);
-        mPassWordEt = (EditText) findViewById(R.id.password_et);
+        mUserNameEt = (TextView) findViewById(R.id.username_et);
+        mPassWordEt = (TextView) findViewById(R.id.password_et);
         mLoginBt = (Button) findViewById(R.id.login_bt);
         mRegisterBt = (Button) findViewById(R.id.register_bt);
 
