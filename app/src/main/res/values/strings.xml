@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">从删库到跑路</string>
 
-    <string name="login_username_hint">请输入用户名</string>
+    <string name="login_username_hint">请输入账号</string>
     <string name="login_password_hint">请输入密码</string>
 
     <string name="login_bt_text">登陆</string>
