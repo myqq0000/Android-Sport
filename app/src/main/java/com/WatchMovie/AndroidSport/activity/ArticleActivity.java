@@ -5,7 +5,7 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-
+import com.orhanobut.logger.Logger;
 import com.WatchMovie.AndroidSport.R;
 
 /**
@@ -18,9 +18,8 @@ public class ArticleActivity extends BaseActivity {
     //private static final String TEST_URL = "http://192.168.0.104:8080/Sport/NewsDetail?id=3";
 
     private WebView mWebView;
-
     //文章的url
-    private String mArticleUrl;
+    private String mArticleUrl = "file:///assets/chat.html";
 
 
     @Override
@@ -29,11 +28,11 @@ public class ArticleActivity extends BaseActivity {
         setContentView(R.layout.activity_article);
         mWebView = (WebView) findViewById(R.id.article_wv);
 
-        initWebView();
+        //initWebView();
 
-        mArticleUrl = getIntent().getStringExtra(BUNDLE_URL);
+        Logger.d("start loading local file.");
+        mWebView.loadUrl("file:///android_asset/chat.html");
 
-        mWebView.loadUrl(mArticleUrl);
     }
 
     private void initWebView() {
