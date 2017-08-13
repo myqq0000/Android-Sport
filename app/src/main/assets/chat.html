@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    #root {
+      margin-bottom: 5em;
+    }
+
+    .chatBoxWarp {
+      padding: 10px;
+    }
+
+    .chatBoxLeft {
+      max-width: 80%;
+      float: left;
+      padding: 10px;
+      border-radius: 0 10px 10px 10px;
+      box-shadow: 3px 3px 1.5em 0em #E4E4E4;
+    }
+
+    .chatBoxRight {
+      max-width: 80%;
+      padding: 10px;
+      float: right;
+      color: #FFFFFF;
+      background-color: #9DC3C0;
+      border-radius: 10px 0 10px 10px;
+      box-shadow: -3px 3px 1.5em 0em #9DC3C0;
+    }
+
+    .clearfix:after {
+      content: " ";
+      /* Older browser do not support empty content */
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both;
+    }
+
+    .time {
+      display: block;
+      font-size: 0.5em;
+      color: #E4E4E4;
+    }
+
+    .inputBar {
+      box-sizing: border-box;
+      padding: 5px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 3em;
+      display: flex;
+      background-color: #FFF;
+    }
+
+    .inputBar input {
+      border: none;
+      line-height: 3em;
+      flex-grow: 1;
+    }
+
+    .inputBar input:focus {
+      outline: none;
+    }
+
+    #sendButton {
+      width: 5em;
+      color: #FFFFFF;
+      background-color: #9DC3C0;
+      border: none;
+    }
+
+    #sendButton:focus {
+      outline: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="root">
+    <div class="chatBoxWarp clearfix">
+      <div class="chatBoxLeft">
+        Hello there? sup?
+        <span class="time">
+          20: 00
+        </span>
+      </div>
+    </div>
+
+    <div class="chatBoxWarp clearfix">
+      <div class="chatBoxRight">
+        Lorem ipsum dolor sit amet, consecteture adipisicing elit, sed do eiusmod tempor
+        <span class="time">
+          21: 00
+        </span>
+      </div>
+    </div>
+
+    <div class="chatBoxWarp clearfix">
+      <div class="chatBoxRight">
+        PINGGGG !!!
+        <span class="time">
+          21: 01
+        </span>
+      </div>
+    </div>
+
+  </div>
+  <div class="inputBar">
+    <input id="message" type="text" placeholder="type something">
+    <button id="sendButton" onclick="sendMessage()">SEND</button>
+  </div>
+  <script>
+    var rootEl = document.getElementById('root');
+    function genChatBox(message) {
+      var warp = document.createElement('div');
+      warp.className = "chatBoxWarp clearfix";
+      var now = new Date();
+      warp.innerHTML = '<div class="chatBoxRight">' + message + ' <span class="time">' + now.getHours() + ":" + now.getMinutes() + '</span></div>';
+      return warp;
+    }
+    function sendMessage() {
+      var message = document.getElementById('message').value;
+      if (message) {
+        rootEl.appendChild(genChatBox(message));
+        document.getElementById('message').value = '';
+        window.scrollTo(0, document.body.scrollHeight);
+      }
+    }
+  </script>
+</body>
+
+
+</html>

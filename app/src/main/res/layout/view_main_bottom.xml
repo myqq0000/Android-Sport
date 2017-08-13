@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/activity_main_bottom_bar_height"
-    android:layout_alignParentBottom="true">
+    android:layout_alignParentBottom="true"
+    android:background="@color/navigationBarColor"
+    >
 
     <LinearLayout
         android:id="@+id/tab_information"
@@ -18,6 +20,8 @@
         <TextView
             style="@style/base_small_text"
             android:layout_marginTop="5dp"
+
+            android:textColor="#97989c"
             android:text="@string/tab_information" />
     </LinearLayout>
 
@@ -35,6 +39,7 @@
         <TextView
             style="@style/base_small_text"
             android:layout_marginTop="5dp"
+            android:textColor="#97989c"
             android:text="@string/tab_sport" />
 
     </LinearLayout>
@@ -53,6 +58,7 @@
         <TextView
             style="@style/base_small_text"
             android:layout_marginTop="5dp"
+            android:textColor="#97989c"
             android:text="@string/tab_mine" />
 
     </LinearLayout>
