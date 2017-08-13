@@ -92,8 +92,8 @@ public class ActivitySportMessage extends BaseActivity implements SportMessageRe
             //画折线
             if(latLngList.size() != 1){
                 OverlayOptions lineOptions = new PolylineOptions()
-                        .width(4)
-                        .color(0xAAFF0000)
+                        .width(40)
+                        .color(0xAA45BAE7)
                         .points(latLngList);
 
                 mMap.addOverlay(lineOptions);
