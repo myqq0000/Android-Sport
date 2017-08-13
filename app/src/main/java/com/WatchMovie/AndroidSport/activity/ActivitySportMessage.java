@@ -78,7 +78,11 @@ public class ActivitySportMessage extends BaseActivity implements SportMessageRe
                 LatLng latLng = new LatLng(location.getPosy(),location.getPosx());
                 latLngList.add(latLng);
 
-                OverlayOptions options = new DotOptions().center(latLng);
+                OverlayOptions options = new DotOptions()
+                        .center(latLng)
+                        .radius(6)
+                        .color(0xAAFF0000);
+
                 optionsList.add(options);
             }
 
@@ -87,7 +91,11 @@ public class ActivitySportMessage extends BaseActivity implements SportMessageRe
 
             //画折线
             if(latLngList.size() != 1){
-                OverlayOptions lineOptions = new PolylineOptions().points(latLngList);
+                OverlayOptions lineOptions = new PolylineOptions()
+                        .width(4)
+                        .color(0xAAFF0000)
+                        .points(latLngList);
+
                 mMap.addOverlay(lineOptions);
             }
         }
