@@ -19,7 +19,7 @@ public class ArticleActivity extends BaseActivity {
 
     private WebView mWebView;
     //文章的url
-    private String mArticleUrl = "file:///assets/chat.html";
+    //private String mArticleUrl = "file:///assets/chat.html";
 
 
     @Override
@@ -28,7 +28,7 @@ public class ArticleActivity extends BaseActivity {
         setContentView(R.layout.activity_article);
         mWebView = (WebView) findViewById(R.id.article_wv);
 
-        //initWebView();
+        initWebView();
 
         Logger.d("start loading local file.");
         mWebView.loadUrl("file:///android_asset/chat.html");
@@ -38,6 +38,7 @@ public class ArticleActivity extends BaseActivity {
     private void initWebView() {
         WebSettings settings = mWebView.getSettings();
 
+        settings.setJavaScriptEnabled(true);
         settings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
         settings.setUseWideViewPort(true);
         settings.setLoadWithOverviewMode(true);
