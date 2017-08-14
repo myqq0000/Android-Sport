@@ -3,7 +3,10 @@ package com.WatchMovie.AndroidSport.fragment;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.support.annotation.Nullable;
+=======
+>>>>>>> e8abc7aefbf5986049ac27099f523bd76c00f11c
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -82,7 +85,6 @@ public class FragmentNews extends FragmentLoadRecycler {
     protected void bindingViewHolder(RecyclerView.ViewHolder holder, final int position) {
         NewsItemView itemView = (NewsItemView) holder.itemView;
         News news = mNewsList.get(position);
-
         itemView.setThumbnailSource(news.getThumbnail());
         itemView.setTitleString(news.getName());
         itemView.setContentString(news.getSimplecontent());
