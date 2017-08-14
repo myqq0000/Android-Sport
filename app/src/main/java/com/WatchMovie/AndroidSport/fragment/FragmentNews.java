@@ -78,7 +78,6 @@ public class FragmentNews extends FragmentLoadRecycler {
     protected void bindingViewHolder(RecyclerView.ViewHolder holder, final int position) {
         NewsItemView itemView = (NewsItemView) holder.itemView;
         News news = mNewsList.get(position);
-
         itemView.setThumbnailSource(news.getThumbnail());
         itemView.setTitleString(news.getName());
         itemView.setContentString(news.getSimplecontent());
