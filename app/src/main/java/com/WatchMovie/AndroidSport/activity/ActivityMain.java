@@ -19,7 +19,7 @@ public class ActivityMain extends BaseActivity {
 
     private MainBottomView mBottomView;
 
-    private int mSelectPosition = 0;
+    private int mSelectPosition = 1;
 
     private MainBottomView.OnBottomChooseListener mBottomChooseListener = new BottomChooseListener();
 
