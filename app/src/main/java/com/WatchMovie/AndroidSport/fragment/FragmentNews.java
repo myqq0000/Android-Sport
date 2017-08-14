@@ -3,6 +3,7 @@ package com.WatchMovie.AndroidSport.fragment;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,7 +21,7 @@ import java.util.List;
 
 /**
  * 主页面---展示信息的Fragment
- * Created by liuheng on 16/7/14.
+ * Created by WatchMovie on 17/08/14.
  */
 public class FragmentNews extends FragmentLoadRecycler {
 
