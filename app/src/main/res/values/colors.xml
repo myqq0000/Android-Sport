@@ -17,6 +17,6 @@
     <color name="sport_button_normal">#45bae7</color>
     <color name="sport_button_press">#2f7ad9</color>
 
-    <color name="recycler_default_bg">#f8f8fa</color>
+    <color name="recycler_default_bg">#1b1e27</color>
 
 </resources>
