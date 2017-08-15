@@ -11,7 +11,7 @@ import com.WatchMovie.AndroidSport.model.network.listener.OnRequestListener;
 import java.util.List;
 
 /**
- * '发现频道'的请求类
+ * '社交频道'的请求类
  * Created by WatchMovie on 17/8/12
  */
 public class NewsRequest extends BaseRequest {

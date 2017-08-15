@@ -9,7 +9,7 @@ import com.orhanobut.logger.Logger;
 import com.WatchMovie.AndroidSport.R;
 
 /**
- * 文章详情界面
+ * 聊天详情界面
  * Created by WatchMovie on 17/8/12
  */
 public class ArticleActivity extends BaseActivity {

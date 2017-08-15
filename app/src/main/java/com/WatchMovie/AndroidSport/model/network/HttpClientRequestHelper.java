@@ -31,6 +31,4 @@ public class HttpClientRequestHelper {
                 .cacheControl(cacheControl)
                 .build();
     }
-
-
 }

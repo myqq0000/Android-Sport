@@ -9,7 +9,7 @@ import com.WatchMovie.AndroidSport.utils.HexUtils;
 
 /**
  * Request请求的基类，封装了错误码，网络访问的方法
- * 子类需要实现HttpClient请求的回调，即获取到返回值，并根据不同的请求作出处理，在写出相应请求的回调。
+ * 子类需要实现HttpClient请求的回调，即获取到返回值，并根据不同的请求作出处理，再写出相应请求的回调。
  * Created by WatchMovie on 17/8/12
  */
 public abstract class BaseRequest {
@@ -25,6 +25,7 @@ public abstract class BaseRequest {
     public static final int REQUEST_SUCCESS = 0; //成功
     public static final int REQUEST_OTHER_EXCEPTION = 100; //服务器错误，请求错误等等非逻辑错误，都是这个
 
+    // 异步请求
     public void doRequest(){
         String path = BASE_URL+getRequestPath();
 
@@ -35,6 +36,7 @@ public abstract class BaseRequest {
         HttpClient.doAsyncPost(path,new PostRequestBody[]{body}, getRequestListener());
     }
 
+    // 同步请求
     public String doSyncPost(){
         String path = BASE_URL+getRequestPath();
 
