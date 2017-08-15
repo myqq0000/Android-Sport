@@ -98,8 +98,7 @@ public class MapActivity extends BaseActivity {
         //1、画出当前的点数
         OverlayOptions dotOptions = new DotOptions()
                 .center(nowLatLng)
-                .radius(6)
-                .color(0xAAFF0000);
+                .color(0xFF45BAE7);
         mMap.addOverlay(dotOptions);
 
         //2、如果不为1，那么还要画一个指向之前的横线
@@ -108,8 +107,8 @@ public class MapActivity extends BaseActivity {
             linePoints.add(mBeforeLocation);
             linePoints.add(nowLatLng);
             OverlayOptions lineOptions = new PolylineOptions()
-                    .width(4)
-                    .color(0xAAFF0000)
+                    .width(40)
+                    .color(0xAA45BAE7)
                     .points(linePoints);
             mMap.addOverlay(lineOptions);
         }

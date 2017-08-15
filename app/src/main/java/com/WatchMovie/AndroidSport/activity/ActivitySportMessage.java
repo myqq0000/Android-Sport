@@ -80,8 +80,7 @@ public class ActivitySportMessage extends BaseActivity implements SportMessageRe
 
                 OverlayOptions options = new DotOptions()
                         .center(latLng)
-                        .radius(6)
-                        .color(0xAAFF0000);
+                        .color(0xFF45BAE7);
 
                 optionsList.add(options);
             }
